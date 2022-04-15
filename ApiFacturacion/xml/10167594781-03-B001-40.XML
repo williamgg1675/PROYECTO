@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+           <ext:UBLExtensions>
+              <ext:UBLExtension>
+                 <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>hHeJgkEFJOGw7VXDMYwmNQvMH9Q=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>lXkLX7DpSt7B4ksy/KHMiPj7JFshi2quVfResXftMwZ2wXhq4zHb2Kri2jzYfz6/T8885nltRj+vFMV9TDXBpAC6xImMM5jfPW/zTeR7E/I4UbQXG1i9WNLA21n2MV1QmmcAlimJea9wCPmW1u8b/vOnPVzhIJGOHjJheRnTLMhKploni7P6qzxuj7J+mYsiFUnuF5tn6t/WorgFTWPhBHEx1I9/UBkhnKudLr1xLyBN92EAmrSbXDfgPiFUcdIUINHY5B25vVojqUSsylhSyAzUmYYhRJFbbETyqMPzs7Xv3ngxCadDiJLKZ78O0VewwheepqkR/kCQdKwctuZMrQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIoTCCBomgAwIBAgIUFzvycMGJTnB+rtGbLNBRZy1Eq/4wDQYJKoZIhvcNAQELBQAwbDELMAkGA1UEBhMCUEUxPDA6BgNVBAoMM1JlZ2lzdHJvIE5hY2lvbmFsIGRlIElkZW50aWZpY2FjacOzbiB5IEVzdGFkbyBDaXZpbDEfMB0GA1UEAwwWRUNFUC1SRU5JRUMgQ0EgQ2xhc3MgMTAeFw0yMTEyMjcxODQ1NTBaFw0yNDEyMjYxODQ1NTBaMIIBCTELMAkGA1UEBhMCUEUxHDAaBgNVBAgME0xBTUJBWUVRVUUtQ0hJQ0xBWU8xEDAOBgNVBAcMB01PTlNFRlUxKDAmBgNVBAoMH0dBUk5JUVVFIEdPTlpBTEVTIFdJTExJQU0gRURXSU4xGjAYBgNVBGEMEU5UUlBFLTEwMTY3NTk0NzgxMSEwHwYDVQQLDBhFUkVQX1NVTkFUXzIwMjEwMDAyMTM5MTUxFDASBgNVBAsMCzEwMTY3NTk0NzgxMUswSQYDVQQDDEJ8fFVTTyBUUklCVVRBUklPfHwgR0FSTklRVUUgR09OWkFMRVMgV0lMTElBTSBFRFdJTiBDRFQgMTAxNjc1OTQ3ODEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9AdOHWoRVMT1LtaWwBbKxvxTdjHWymkt+0J8gBv2tyyTzK6lg0T+CNBAXeOSxpGMfDP5s2JZUaqmzM8vz/wQaF2YUvrM1iir8gA2fsG35exmW0I+MHnPa35TfXmGMQuLvI6bDcEgfVgrrItU2plZKbjxNkHf3U1jzpgzlCO9HPJiB+tIsQ6eL24wkrJ4AZR33zGPmk0mQfxyRjJqEPPWHGueN4mQtbhvqZDXUZYPuYjysghv0BfXPjRyg0wQ1wdE2PiFh1UPzi594wkm5CI3lTnJEvQsPdnwwltrhWUjPuRuoML/fU7CrpNF6XJVU1KHUhLCmGPG0iv45j/M2E7oxAgMBAAGjggOaMIIDljAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFEMVbvDT0WsbKTNBLVWscSLRPKVdMG4GCCsGAQUFBwEBBGIwYDA3BggrBgEFBQcwAoYraHR0cDovL2NydC5yZW5pZWMuZ29iLnBlL3Jvb3QzL2NhY2xhc3MxLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29jc3AucmVuaWVjLmdvYi5wZTCCAjcGA1UdIASCAi4wggIqMHcGESsGAQQBgpNkAgEDAQBlh2gAMGIwMQYIKwYBBQUHAgEWJWh0dHBzOi8vd3d3LnJlbmllYy5nb2IucGUvcmVwb3NpdG9yeS8wLQYIKwYBBQUHAgEWIVBvbO10aWNhIEdlbmVyYWwgZGUgQ2VydGlmaWNhY2nzbjCBxAYRKwYBBAGCk2QCAQMBAGeHaAAwga4wMgYIKwYBBQUHAgEWJmh0dHBzOi8vcGtpLnJlbmllYy5nb2IucGUvcmVwb3NpdG9yaW8vMHgGCCsGAQUFBwICMGweagBEAGUAYwBsAGEAcgBhAGMAaQDzAG4AIABkAGUAIABQAHIA4QBjAHQAaQBjAGEAcwAgAGQAZQAgAEMAZQByAHQAaQBmAGkAYwBhAGMAaQDzAG4AIABFAEMARQBQAC0AUgBFAE4ASQBFAEMwgecGESsGAQQBgpNkAgEDAQFnh3MDMIHRMIHOBggrBgEFBQcCAjCBwR6BvgBDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABEAGkAZwBpAHQAYQBsACAAVAByAGkAYgB1AHQAYQByAGkAbwAgAHAAYQByAGEAIABBAGcAZQBuAHQAZQAgAEEAdQB0AG8AbQBhAHQAaQB6AGEAZABvACAAQwBsAGEAcwBzACAAMQAsACAAZQBuACAAYwB1AG0AcABsAGkAbQBpAGUAbgB0AG8AIABkAGUAbAAgAEQATAAgAE4AugAgADEAMwA3ADAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwdgYDVR0fBG8wbTA0oDKgMIYuaHR0cDovL2NybC5yZW5pZWMuZ29iLnBlL2NybC9zaGEyL2NhY2xhc3MxLmNybDA1oDOgMYYvaHR0cDovL2NybDIucmVuaWVjLmdvYi5wZS9jcmwvc2hhMi9jYWNsYXNzMS5jcmwwHQYDVR0OBBYEFFLFTjmeudvyDulod4EPWRlKATpdMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEADvQqPsLrkRZW7loXU9TeztxxMm6p3NeyxFFdh2Kt0e8WF+7vZsOjEtRWotiJp4v+YcgMg51xwsWujDUxFvTGe8+9EvZZvmOZ8/g5xmQn7XtTIAcKhQI1r5AJai2XuHWPMvT2OOe5n7JqtUwLdw/FO18cDZaxfjiKTJlzVQ5X14cjpLYoM7464Pq+LO/ZP4VyEdPJ9BvNEfP2CpoFgXaYuUpq6x8WsSNzSjf8gI6Tkap34xGNpmCble3Nhy9s7bOOxhq327SbgmjOGP7LtGHmK5d5LRZJMijA7RiPo055QGUsvZs5M5C9ZjpocxXGLUR1rhCegAZ/YKpHHIRgY3s3DaNhBTcNuVzh/JOjewp69yhGixUstXPKM7ta7nTUCuPSoQYR36Hf06b44Hdhu/8tS0THYw2YNjl2eJqeTYDkH9H7WJf76XwaD8i39eqaOxZIGn3sDAG2XoP/+4oDkriSuh6h8SBs1Gmnxrq8tveR1EyGWa2sEVyOVLkiVaz4NvJaD/sAcTGNnuTY67h48sVxtvotTqB6h5+Tq1UANHXKV0huUsq1z4YVv35U9jIbxNoI3GjA/FYHie+03e/LpkPoJbGuD9Nc9VhvATOS3TMGKs2t8NFrB0kzf/Wn5DsBuxPWTuEX/WEE2CUiWLkc2qNwGI9IrUm4xc4++Yd45hCcdec=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+              </ext:UBLExtension>
+           </ext:UBLExtensions>
+           <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+           <cbc:CustomizationID>2.0</cbc:CustomizationID>
+           <cbc:ID>B001-40</cbc:ID>
+           <cbc:IssueDate>2022-04-09</cbc:IssueDate>
+           <cbc:IssueTime>00:00:00</cbc:IssueTime>
+           <cbc:DueDate>2022-04-09</cbc:DueDate>
+           <cbc:InvoiceTypeCode listID="0101">03</cbc:InvoiceTypeCode>
+           <cbc:Note languageLocaleID="1000"><![CDATA[CUARENTACUARENTA Y CEROCERO  CON 00/100 SOLES]]></cbc:Note>
+           <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+           <cac:Signature>
+              <cbc:ID>10167594781</cbc:ID>
+              <cbc:Note><![CDATA[Servicios Informaticos HARD-SOFT]]></cbc:Note>
+              <cac:SignatoryParty>
+                 <cac:PartyIdentification>
+                    <cbc:ID>10167594781</cbc:ID>
+                 </cac:PartyIdentification>
+                 <cac:PartyName>
+                    <cbc:Name><![CDATA[WILLIAM EDWIN GARNIQUE GONZALES]]></cbc:Name>
+                 </cac:PartyName>
+              </cac:SignatoryParty>
+              <cac:DigitalSignatureAttachment>
+                 <cac:ExternalReference>
+                    <cbc:URI>#SIGN-EMPRESA</cbc:URI>
+                 </cac:ExternalReference>
+              </cac:DigitalSignatureAttachment>
+           </cac:Signature>
+           <cac:AccountingSupplierParty>
+              <cac:Party>
+                 <cac:PartyIdentification>
+                    <cbc:ID schemeID="6">10167594781</cbc:ID>
+                 </cac:PartyIdentification>
+                 <cac:PartyName>
+                    <cbc:Name><![CDATA[Servicios Informaticos HARD-SOFT]]></cbc:Name>
+                 </cac:PartyName>
+                 <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[WILLIAM EDWIN GARNIQUE GONZALES]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                       <cbc:ID>140101</cbc:ID>
+                       <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+                       <cbc:CitySubdivisionName>NONE</cbc:CitySubdivisionName>
+                       <cbc:CityName>CHICLAYO</cbc:CityName>
+                       <cbc:CountrySubentity>LAMBAYEQUE</cbc:CountrySubentity>
+                       <cbc:District>MONSEFU</cbc:District>
+                       <cac:AddressLine>
+                          <cbc:Line><![CDATA[TARAPACA Nº 520 - MONSEFU]]></cbc:Line>
+                       </cac:AddressLine>
+                       <cac:Country>
+                          <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                       </cac:Country>
+                    </cac:RegistrationAddress>
+                 </cac:PartyLegalEntity>
+              </cac:Party>
+           </cac:AccountingSupplierParty>
+           <cac:AccountingCustomerParty>
+              <cac:Party>
+                 <cac:PartyIdentification>
+                    <cbc:ID schemeID="1">16759517</cbc:ID>
+                 </cac:PartyIdentification>
+                 <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[RAMON GONZALES CORNEJO]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                       <cac:AddressLine>
+                          <cbc:Line><![CDATA[MONSEFU]]></cbc:Line>
+                       </cac:AddressLine>
+                       <cac:Country>
+                          <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                       </cac:Country>
+                    </cac:RegistrationAddress>
+                 </cac:PartyLegalEntity>
+              </cac:Party>
+           </cac:AccountingCustomerParty>
+
+           <cac:PaymentTerms>
+               <cbc:ID>FormaPago</cbc:ID>
+               <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+           </cac:PaymentTerms>
+
+
+           <cac:TaxTotal>
+              <cbc:TaxAmount currencyID="PEN">6.102</cbc:TaxAmount><cac:TaxSubtotal>
+                     <cbc:TaxableAmount currencyID="PEN">33.9</cbc:TaxableAmount>
+                     <cbc:TaxAmount currencyID="PEN">6.102</cbc:TaxAmount>
+                     <cac:TaxCategory>
+                        <cac:TaxScheme>
+                           <cbc:ID>1000</cbc:ID>
+                           <cbc:Name>IGV</cbc:Name>
+                           <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                        </cac:TaxScheme>
+                     </cac:TaxCategory>
+                  </cac:TaxSubtotal></cac:TaxTotal>
+           <cac:LegalMonetaryTotal>
+              <cbc:LineExtensionAmount currencyID="PEN">33.9</cbc:LineExtensionAmount>
+              <cbc:TaxInclusiveAmount currencyID="PEN">40.002</cbc:TaxInclusiveAmount>
+              <cbc:PayableAmount currencyID="PEN">40.002</cbc:PayableAmount>
+           </cac:LegalMonetaryTotal><cac:InvoiceLine>
+                  <cbc:ID>1</cbc:ID>
+                  <cbc:InvoicedQuantity unitCode="NIU">1</cbc:InvoicedQuantity>
+                  <cbc:LineExtensionAmount currencyID="PEN">33.9</cbc:LineExtensionAmount>
+                  <cac:PricingReference>
+                     <cac:AlternativeConditionPrice>
+                        <cbc:PriceAmount currencyID="PEN">40.002</cbc:PriceAmount>
+                        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+                     </cac:AlternativeConditionPrice>
+                  </cac:PricingReference>
+                  <cac:TaxTotal>
+                     <cbc:TaxAmount currencyID="PEN">6.102</cbc:TaxAmount>
+                     <cac:TaxSubtotal>
+                        <cbc:TaxableAmount currencyID="PEN">33.9</cbc:TaxableAmount>
+                        <cbc:TaxAmount currencyID="PEN">6.102</cbc:TaxAmount>
+                        <cac:TaxCategory>
+                           <cbc:Percent>18</cbc:Percent>
+                           <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                           <cac:TaxScheme>
+                              <cbc:ID>1000</cbc:ID>
+                              <cbc:Name>IGV</cbc:Name>
+                              <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                           </cac:TaxScheme>
+                        </cac:TaxCategory>
+                     </cac:TaxSubtotal>
+                  </cac:TaxTotal>
+                  <cac:Item>
+                     <cbc:Description><![CDATA[MOUSE, Marca MICROSOFT, Modelo MS MSFT BASIC OPTICAL WHITE,  1113 MOD.  Serie: 9170532867878/917053]]></cbc:Description>
+                     <cac:SellersItemIdentification>
+                        <cbc:ID>2</cbc:ID>
+                     </cac:SellersItemIdentification>
+                  </cac:Item>
+                  <cac:Price>
+                     <cbc:PriceAmount currencyID="PEN">33.90</cbc:PriceAmount>
+                  </cac:Price>
+               </cac:InvoiceLine></Invoice>
